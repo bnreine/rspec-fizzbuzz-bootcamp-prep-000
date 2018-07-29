@@ -4,9 +4,9 @@
 def fizzbuzz(number)
   if ((number%3==0) && (number%5!=0)) 
     return "Fizz"
-  else if ((number%3!=0) && (number%5==0)) 
+  elsif ((number%3!=0) && (number%5==0)) 
     return "Buzz"
-#  elseif ((number%3!=0) && (number%5!=0))
+#  elsif ((number%3!=0) && (number%5!=0))
 #    return "nil"  
 #  else ((number%3==0) && (number%5==0)) 
 #    return "fizzbuzz" 
