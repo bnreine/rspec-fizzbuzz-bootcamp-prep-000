@@ -3,7 +3,7 @@
 
 def fizzbuzz(number)
   if ((number%3==0) && (number%5!=0)) 
-    return "fizz"
+    return "Fizz"
 #  else if ((number%3!=0) && (number%5==0)) 
 #    return "buzz"
 #  else if ((number%3!=0) && (number%5!=0))
