@@ -4,7 +4,7 @@
 def fizzbuzz(number)
   if ((number%3==0) && (number%5!=0)) 
     return "Fizz"
-  else if (true)#((number%3!=0) && (number%5==0)) 
+  else if (true)  #((number%3!=0) && (number%5==0)) 
     return "Buzz"
 #  else if ((number%3!=0) && (number%5!=0))
 #    return "nil"  
